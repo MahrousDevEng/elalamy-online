@@ -58,9 +58,13 @@ document.addEventListener("DOMContentLoaded", () => {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
+    lazy: {
+      enabled: true,
+      loadPrevNext: true,
+    },
     breakpoints: {
       576: {
-        slidesPerView: 2.25,
+        slidesPerView: 1.75,
       },
       768: {
         slidesPerView: 2.5,
