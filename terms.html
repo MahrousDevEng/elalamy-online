@@ -6,13 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="لينكلي موقع بيع و شراء" />
-    <meta
-      name="keywords"
-      content="linkly, لينكلى, الهدايا, معدات طبية, ادوات مكتبية, أثاث, مستلزمات الام والطفل, الالكترونيات, مستحضرات التجميل, كتب"
-    />
+    <meta name="keywords" content="" />
     <!-- Fav Icon -->
     <link rel="icon" href="images/logo-fav.webp" />
-    <title>لينكلى | Linkly</title>
+    <title>العالمي للتقسيط</title>
     <!-- Custom Style -->
     <link rel="stylesheet" href="css/terms.css" />
   </head>
@@ -34,12 +31,6 @@
                 aria-label="اظهار|اخفاء القائمة"
               >
                 <img
-                  src="images/icons/menu.svg"
-                  width="24"
-                  height="24"
-                  alt="toggle nav menu"
-                />
-                <img
                   src="images/icons/menu-w.svg"
                   width="24"
                   height="24"
@@ -47,15 +38,6 @@
                 />
               </button>
               <a href="./index.html" class="brand" aria-current="page">
-                <img
-                  src="images/logo.webp"
-                  data-src="images/logo.webp"
-                  class="brand-image lazy blur-up"
-                  width="90"
-                  height="60"
-                  alt="Homstik Logo"
-                  aria-label="الشعار"
-                />
                 <img
                   src="images/logo-w.webp"
                   data-src="images/logo-w.webp"
@@ -245,8 +227,8 @@
             <h5 class="offcanvas-title" id="mobileCategoryNavLabel">
               <a href="./index.html" class="logo">
                 <img
-                  src="images/logo.webp"
-                  data-src="images/logo.webp"
+                  src="images/logo-w.webp"
+                  data-src="images/logo-w.webp"
                   class="brand-image lazy blur-up"
                   width="105"
                   height="70"
@@ -261,7 +243,7 @@
               aria-label="اقفل"
             >
               <img
-                src="images/icons/x.svg"
+                src="images/icons/x-w.svg"
                 width="24"
                 height="24"
                 alt="close"
@@ -440,15 +422,109 @@
                   </li>
                 </ul>
               </li>
+
               <li class="category-item">
+                <a href="index.html" class="btn category-link smooth active">
+                  <img
+                    src="images/icons/home.svg"
+                    alt="الرئيسية"
+                    width="16"
+                    height="16"
+                  />
+                  <span>الرئيسية</span>
+                </a>
+              </li>
+
+              <li class="category-item">
+                <a href="services.html" class="btn category-link smooth">
+                  <img
+                    src="images/icons/help-circle.svg"
+                    alt="الخدمات"
+                    width="16"
+                    height="16"
+                  />
+                  <span>الخدمات</span>
+                </a>
+                <button
+                  type="button"
+                  class="btn collapsed mobile-category-toggler"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#services_wrapper"
+                  aria-expanded="true"
+                  aria-controls="services_wrapper"
+                  aria-label="افتح الفئات الفرعية"
+                >
+                  <span class="icon w-fit smooth">
+                    <img
+                      src="images/icons/plus.svg"
+                      width="18"
+                      height="18"
+                      alt="toggle show subcategory"
+                    />
+                  </span>
+                </button>
+                <ul
+                  class="category-dropdown smooth collapse"
+                  id="services_wrapper"
+                >
+                  <li>
+                    <a href="inner-service.html" class="smooth"
+                      >الخدمه الاولى</a
+                    >
+                  </li>
+                  <li>
+                    <a href="inner-service.html" class="smooth"
+                      >الخدمه الثانية</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="category-item">
+                <a href="payments.html" class="btn category-link smooth">
+                  <img
+                    src="images/icons/dollar-sign.svg"
+                    alt="طرق الدفع"
+                    width="16"
+                    height="16"
+                  />
+                  <span>طرق الدفع</span>
+                </a>
+              </li>
+
+              <li class="category-item">
+                <a href="about.html" class="btn category-link smooth">
+                  <img
+                    src="images/icons/info.svg"
+                    alt="معلومات عنا"
+                    width="16"
+                    height="16"
+                  />
+                  <span>معلومات عنا</span>
+                </a>
+              </li>
+
+              <li class="category-item">
+                <a href="contact.html" class="btn category-link smooth">
+                  <img
+                    src="images/icons/phone-call.svg"
+                    alt="تواصل معنا"
+                    width="16"
+                    height="16"
+                  />
+                  <span>تواصل معنا</span>
+                </a>
+              </li>
+
+              <li class="category-item d-xl-none">
                 <a href="shop.html" class="btn category-link smooth active">
                   <img
-                    src="images/icons/gift.svg"
+                    src="images/icons/watch.svg"
                     alt="الهدايا"
                     width="16"
                     height="16"
                   />
-                  <span>الهدايا</span>
+                  <span>الساعات</span>
                 </a>
                 <button
                   type="button"
@@ -473,22 +549,23 @@
                   id="category_nav_1"
                 >
                   <li>
-                    <a href="shop.html" class="smooth">ساعات</a>
+                    <a href="shop.html" class="smooth">حريمي</a>
                   </li>
                   <li>
-                    <a href="shop.html" class="smooth">عطور</a>
+                    <a href="shop.html" class="smooth">رجالي</a>
                   </li>
                 </ul>
               </li>
-              <li class="category-item">
+
+              <li class="category-item d-xl-none">
                 <a href="shop.html" class="btn category-link smooth">
                   <img
-                    src="images/icons/thermometer.svg"
+                    src="images/icons/tv.svg"
                     alt="معدات طبية"
                     width="16"
                     height="16"
                   />
-                  <span>معدات طبية</span>
+                  <span>اجهزة كهربية</span>
                 </a>
                 <button
                   type="button"
@@ -513,19 +590,29 @@
                   id="category_nav_2"
                 >
                   <li>
-                    <a href="shop.html" class="smooth">أجهزة طبية متنوعة</a>
+                    <a href="shop.html" class="smooth">تليفزيونات</a>
+                  </li>
+                  <li>
+                    <a href="shop.html" class="smooth">غسالات</a>
+                  </li>
+                  <li>
+                    <a href="shop.html" class="smooth">ثلاجات</a>
+                  </li>
+                  <li>
+                    <a href="shop.html" class="smooth">ميكرويف</a>
                   </li>
                 </ul>
               </li>
-              <li class="category-item">
+
+              <li class="category-item d-xl-none">
                 <a href="shop.html" class="btn category-link smooth">
                   <img
-                    src="images/icons/edit-2.svg"
+                    src="images/icons/headphones.svg"
                     alt="أدوات مكتبية"
                     width="16"
                     height="16"
                   />
-                  <span>أدوات مكتبية</span>
+                  <span>اكسسوارات</span>
                 </a>
                 <button
                   type="button"
@@ -550,19 +637,20 @@
                   id="category_nav_3"
                 >
                   <li>
-                    <a href="shop.html" class="smooth">قرطاسية</a>
+                    <a href="shop.html" class="smooth">سماعات</a>
                   </li>
                 </ul>
               </li>
-              <li class="category-item">
+
+              <li class="category-item d-xl-none">
                 <a href="shop.html" class="btn category-link smooth">
                   <img
-                    src="images/icons/furniture.svg"
+                    src="images/icons/Motorbike.svg"
                     alt="أثاث"
                     width="16"
                     height="16"
                   />
-                  <span>أثاث</span>
+                  <span>اسكوترات</span>
                 </a>
                 <button
                   type="button"
@@ -587,25 +675,20 @@
                   id="category_nav_4"
                 >
                   <li>
-                    <a href="shop.html" class="smooth">مكاتب</a>
-                  </li>
-                  <li>
-                    <a href="shop.html" class="smooth">سراير</a>
-                  </li>
-                  <li>
-                    <a href="shop.html" class="smooth">كراسي</a>
+                    <a href="shop.html" class="smooth">اسكوترات</a>
                   </li>
                 </ul>
               </li>
-              <li class="category-item">
+
+              <li class="category-item d-xl-none">
                 <a href="shop.html" class="btn category-link smooth">
                   <img
-                    src="images/icons/Babies.svg"
+                    src="images/icons/smartphone.svg"
                     alt="مستلزمات الام والطفل"
                     width="16"
                     height="16"
                   />
-                  <span>مستلزمات الام والطفل</span>
+                  <span>هواتف</span>
                 </a>
                 <button
                   type="button"
@@ -630,13 +713,15 @@
                   id="category_nav_5"
                 >
                   <li>
-                    <a href="shop.html" class="smooth"
-                      >كل ما يلزم الام والطفل بالإضافة للعب</a
-                    >
+                    <a href="shop.html" class="smooth">هواتف</a>
+                  </li>
+                  <li>
+                    <a href="shop.html" class="smooth">تابلت</a>
                   </li>
                 </ul>
               </li>
-              <li class="category-item">
+
+              <li class="category-item d-xl-none">
                 <a href="shop.html" class="btn category-link smooth">
                   <img
                     src="images/icons/monitor.svg"
@@ -672,10 +757,7 @@
                     <a href="shop.html" class="smooth">الالكترونيات</a>
                   </li>
                   <li>
-                    <a href="shop.html" class="smooth">كابلات</a>
-                  </li>
-                  <li>
-                    <a href="shop.html" class="smooth">لوحات المفاتيح</a>
+                    <a href="shop.html" class="smooth">لابتوب</a>
                   </li>
                 </ul>
               </li>
@@ -700,10 +782,9 @@
                 <p class="terms-item-desc">
                   لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
                   العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم
-                  مطبوعه ...
-                  لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
-                  العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم
-                  مطبوعه ...
+                  مطبوعه ... لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم
+                  لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت
+                  تصاميم مطبوعه ...
                 </p>
               </li>
               <li class="terms-item">
@@ -716,10 +797,9 @@
                 <p class="terms-item-desc">
                   لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
                   العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم
-                  مطبوعه ...
-                  لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
-                  العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم
-                  مطبوعه ...
+                  مطبوعه ... لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم
+                  لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت
+                  تصاميم مطبوعه ...
                 </p>
               </li>
               <li class="terms-item">
@@ -732,10 +812,9 @@
                 <p class="terms-item-desc">
                   لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
                   العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم
-                  مطبوعه ...
-                  لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
-                  العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم
-                  مطبوعه ...
+                  مطبوعه ... لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم
+                  لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت
+                  تصاميم مطبوعه ...
                 </p>
               </li>
             </ul>
@@ -758,30 +837,22 @@
               <div class="collapse dont-collapse-lg" id="collapse_1">
                 <ol class="footer-links-wrapper">
                   <li>
-                    <a href="shop.html" class="footer-link">الهدايا</a>
+                    <a href="shop.html" class="footer-link">الساعات</a>
                   </li>
                   <li>
-                    <a href="shop.html" class="footer-link">معدات طبية</a>
+                    <a href="shop.html" class="footer-link">اجهزة كهربية</a>
                   </li>
                   <li>
-                    <a href="shop.html" class="footer-link">أدوات مكتبية</a>
+                    <a href="shop.html" class="footer-link">اكسسوارات</a>
                   </li>
                   <li>
-                    <a href="shop.html" class="footer-link">أثاث</a>
+                    <a href="shop.html" class="footer-link">اسكوترات</a>
                   </li>
                   <li>
-                    <a href="shop.html" class="footer-link"
-                      >مستلزمات الام و الطفل</a
-                    >
+                    <a href="shop.html" class="footer-link">هواتف</a>
                   </li>
                   <li>
                     <a href="shop.html" class="footer-link">الالكترونيات</a>
-                  </li>
-                  <li>
-                    <a href="shop.html" class="footer-link">مستحضرات تجميل</a>
-                  </li>
-                  <li>
-                    <a href="shop.html" class="footer-link">كتب</a>
                   </li>
                 </ol>
               </div>
@@ -798,6 +869,9 @@
               <div class="collapse dont-collapse-lg" id="collapse_2">
                 <ol class="footer-links-wrapper">
                   <li>
+                    <a href="about.html" class="footer-link">معلومات عنا</a>
+                  </li>
+                  <li>
                     <a href="contact.html" class="footer-link">تواصل معنا</a>
                   </li>
                   <li>
@@ -806,7 +880,15 @@
                     >
                   </li>
                   <li>
-                    <a href="rewards.html" class="footer-link">عميل مميز</a>
+                    <a href="privacy.html" class="footer-link"
+                      >سياسة الخصوصية</a
+                    >
+                  </li>
+                  <li>
+                    <a href="services.html" class="footer-link">خدماتنا</a>
+                  </li>
+                  <li>
+                    <a href="payments.html" class="footer-link">طرق الدفع</a>
                   </li>
                 </ol>
               </div>
@@ -873,22 +955,6 @@
                     </li>
                   </ul>
                 </div>
-                <div>
-                  <h3 class="footer-header">وسائل الدفع المتاحة</h3>
-                  <ul class="payemnt-method">
-                    <li class="pay">
-                      <img
-                        src="images/cash-on-delivery.webp"
-                        data-src="images/cash-on-delivery.webp"
-                        class="lazy blur-up"
-                        alt="payment method"
-                        width="50"
-                        height="50"
-                      />
-                      <span class="label">الدفع عند الاستلام</span>
-                    </li>
-                  </ul>
-                </div>
               </div>
             </li>
 
@@ -897,10 +963,10 @@
                 <img
                   src="images/footer-logo.webp"
                   data-src="images/footer-logo.webp"
-                  width="180"
-                  height="146"
+                  width="235"
+                  height="254"
                   class="lazy blur-up"
-                  alt="Linkly logo"
+                  alt="العالمي"
                 />
               </a>
             </li>
@@ -909,11 +975,72 @@
 
         <div class="bottom-footer">
           <div class="container">
-            <p>كل الحقوق محفوظة <strong>Linkly</strong></p>
+            <p>كل الحقوق محفوظة <strong>العالمي</strong></p>
           </div>
         </div>
       </footer>
     </main>
+
+    <!-- Go To Top -->
+    <button
+      type="button"
+      class="btn go-to-top"
+      id="goTop"
+      aria-label="go to top"
+    >
+      <img
+        src="images/icons/chevrons-up-w.svg"
+        width="24"
+        height="24"
+        alt="scroll to top"
+      />
+    </button>
+
+    <!-- Social Contacts -->
+    <section class="social-contacts smooth">
+      <div class="social-item trigger">
+        <img
+          src="images/icons/plus-w.svg"
+          alt="open social links"
+          width="24"
+          height="24"
+        />
+      </div>
+      <a href="tel:123456" class="social-item call smooth">
+        <img
+          src="images/icons/telephone-call.webp"
+          alt="open social links"
+          width="32"
+          height="32"
+        />
+      </a>
+      <a
+        href="https://wa.me/3934567879"
+        class="social-item whatsapp smooth"
+        target="_blank"
+        rel="noopener"
+      >
+        <img
+          src="images/icons/whatsapp.webp"
+          alt="open social links"
+          width="32"
+          height="32"
+        />
+      </a>
+      <a
+        href="http://m.me/test"
+        class="social-item fb-messenger smooth"
+        target="_blank"
+        rel="noopener"
+      >
+        <img
+          src="images/icons/messenger.webp"
+          alt="open social links"
+          width="32"
+          height="32"
+        />
+      </a>
+    </section>
 
     <!-- Cart Canvas -->
     <div
@@ -1308,11 +1435,6 @@
     <!-- Lazy Load Images -->
     <script src="plugins/lazyload.min.js" defer></script>
     <!-- Page Script -->
-    <script defer>
-      document.addEventListener("DOMContentLoaded", () => {
-        // Trigger Lazy Load
-        const lazyLoadInstance = new LazyLoad();
-      });
-    </script>
+    <script src="js/global.js" defer></script>
   </body>
 </html>
