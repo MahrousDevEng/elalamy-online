@@ -12,7 +12,7 @@
     />
     <!-- Fav Icon -->
     <link rel="icon" href="images/logo-fav.webp" />
-    <title>لينكلى | Linkly</title>
+    <title>العالمي للتقسيط</title>
     <!-- Select Dropdown -->
     <link
       rel="preload"
@@ -46,12 +46,6 @@
                 aria-label="اظهار|اخفاء القائمة"
               >
                 <img
-                  src="images/icons/menu.svg"
-                  width="24"
-                  height="24"
-                  alt="toggle nav menu"
-                />
-                <img
                   src="images/icons/menu-w.svg"
                   width="24"
                   height="24"
@@ -59,15 +53,6 @@
                 />
               </button>
               <a href="./index.html" class="brand" aria-current="page">
-                <img
-                  src="images/logo.webp"
-                  data-src="images/logo.webp"
-                  class="brand-image lazy blur-up"
-                  width="90"
-                  height="60"
-                  alt="Homstik Logo"
-                  aria-label="الشعار"
-                />
                 <img
                   src="images/logo-w.webp"
                   data-src="images/logo-w.webp"
@@ -257,8 +242,8 @@
             <h5 class="offcanvas-title" id="mobileCategoryNavLabel">
               <a href="./index.html" class="logo">
                 <img
-                  src="images/logo.webp"
-                  data-src="images/logo.webp"
+                  src="images/logo-w.webp"
+                  data-src="images/logo-w.webp"
                   class="brand-image lazy blur-up"
                   width="105"
                   height="70"
@@ -273,7 +258,7 @@
               aria-label="اقفل"
             >
               <img
-                src="images/icons/x.svg"
+                src="images/icons/x-w.svg"
                 width="24"
                 height="24"
                 alt="close"
@@ -283,7 +268,7 @@
           <div class="container">
             <ul class="category-nav-links">
               <li class="mega-menu-wrapper">
-                <a href="shop.html" class="btn category-link smooth active">
+                <a href="shop.html" class="btn category-link smooth">
                   <img
                     src="images/icons/grid.svg"
                     alt="جميع الاقسام"
@@ -452,15 +437,109 @@
                   </li>
                 </ul>
               </li>
+
               <li class="category-item">
-                <a href="shop.html" class="btn category-link smooth">
+                <a href="index.html" class="btn category-link smooth active">
                   <img
-                    src="images/icons/gift.svg"
+                    src="images/icons/home.svg"
+                    alt="الرئيسية"
+                    width="16"
+                    height="16"
+                  />
+                  <span>الرئيسية</span>
+                </a>
+              </li>
+
+              <li class="category-item">
+                <a href="services.html" class="btn category-link smooth">
+                  <img
+                    src="images/icons/help-circle.svg"
+                    alt="الخدمات"
+                    width="16"
+                    height="16"
+                  />
+                  <span>الخدمات</span>
+                </a>
+                <button
+                  type="button"
+                  class="btn collapsed mobile-category-toggler"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#services_wrapper"
+                  aria-expanded="true"
+                  aria-controls="services_wrapper"
+                  aria-label="افتح الفئات الفرعية"
+                >
+                  <span class="icon w-fit smooth">
+                    <img
+                      src="images/icons/plus.svg"
+                      width="18"
+                      height="18"
+                      alt="toggle show subcategory"
+                    />
+                  </span>
+                </button>
+                <ul
+                  class="category-dropdown smooth collapse"
+                  id="services_wrapper"
+                >
+                  <li>
+                    <a href="inner-service.html" class="smooth"
+                      >الخدمه الاولى</a
+                    >
+                  </li>
+                  <li>
+                    <a href="inner-service.html" class="smooth"
+                      >الخدمه الثانية</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="category-item">
+                <a href="payments.html" class="btn category-link smooth">
+                  <img
+                    src="images/icons/dollar-sign.svg"
+                    alt="طرق الدفع"
+                    width="16"
+                    height="16"
+                  />
+                  <span>طرق الدفع</span>
+                </a>
+              </li>
+
+              <li class="category-item">
+                <a href="about.html" class="btn category-link smooth">
+                  <img
+                    src="images/icons/info.svg"
+                    alt="معلومات عنا"
+                    width="16"
+                    height="16"
+                  />
+                  <span>معلومات عنا</span>
+                </a>
+              </li>
+
+              <li class="category-item">
+                <a href="contact.html" class="btn category-link smooth">
+                  <img
+                    src="images/icons/phone-call.svg"
+                    alt="تواصل معنا"
+                    width="16"
+                    height="16"
+                  />
+                  <span>تواصل معنا</span>
+                </a>
+              </li>
+
+              <li class="category-item d-xl-none">
+                <a href="shop.html" class="btn category-link smooth active">
+                  <img
+                    src="images/icons/watch.svg"
                     alt="الهدايا"
                     width="16"
                     height="16"
                   />
-                  <span>الهدايا</span>
+                  <span>الساعات</span>
                 </a>
                 <button
                   type="button"
@@ -485,22 +564,23 @@
                   id="category_nav_1"
                 >
                   <li>
-                    <a href="shop.html" class="smooth">ساعات</a>
+                    <a href="shop.html" class="smooth">حريمي</a>
                   </li>
                   <li>
-                    <a href="shop.html" class="smooth">عطور</a>
+                    <a href="shop.html" class="smooth">رجالي</a>
                   </li>
                 </ul>
               </li>
-              <li class="category-item">
+
+              <li class="category-item d-xl-none">
                 <a href="shop.html" class="btn category-link smooth">
                   <img
-                    src="images/icons/thermometer.svg"
+                    src="images/icons/tv.svg"
                     alt="معدات طبية"
                     width="16"
                     height="16"
                   />
-                  <span>معدات طبية</span>
+                  <span>اجهزة كهربية</span>
                 </a>
                 <button
                   type="button"
@@ -525,19 +605,29 @@
                   id="category_nav_2"
                 >
                   <li>
-                    <a href="shop.html" class="smooth">أجهزة طبية متنوعة</a>
+                    <a href="shop.html" class="smooth">تليفزيونات</a>
+                  </li>
+                  <li>
+                    <a href="shop.html" class="smooth">غسالات</a>
+                  </li>
+                  <li>
+                    <a href="shop.html" class="smooth">ثلاجات</a>
+                  </li>
+                  <li>
+                    <a href="shop.html" class="smooth">ميكرويف</a>
                   </li>
                 </ul>
               </li>
-              <li class="category-item">
+
+              <li class="category-item d-xl-none">
                 <a href="shop.html" class="btn category-link smooth">
                   <img
-                    src="images/icons/edit-2.svg"
+                    src="images/icons/headphones.svg"
                     alt="أدوات مكتبية"
                     width="16"
                     height="16"
                   />
-                  <span>أدوات مكتبية</span>
+                  <span>اكسسوارات</span>
                 </a>
                 <button
                   type="button"
@@ -562,19 +652,20 @@
                   id="category_nav_3"
                 >
                   <li>
-                    <a href="shop.html" class="smooth">قرطاسية</a>
+                    <a href="shop.html" class="smooth">سماعات</a>
                   </li>
                 </ul>
               </li>
-              <li class="category-item">
+
+              <li class="category-item d-xl-none">
                 <a href="shop.html" class="btn category-link smooth">
                   <img
-                    src="images/icons/furniture.svg"
+                    src="images/icons/Motorbike.svg"
                     alt="أثاث"
                     width="16"
                     height="16"
                   />
-                  <span>أثاث</span>
+                  <span>اسكوترات</span>
                 </a>
                 <button
                   type="button"
@@ -599,25 +690,20 @@
                   id="category_nav_4"
                 >
                   <li>
-                    <a href="shop.html" class="smooth">مكاتب</a>
-                  </li>
-                  <li>
-                    <a href="shop.html" class="smooth">سراير</a>
-                  </li>
-                  <li>
-                    <a href="shop.html" class="smooth">كراسي</a>
+                    <a href="shop.html" class="smooth">اسكوترات</a>
                   </li>
                 </ul>
               </li>
-              <li class="category-item">
+
+              <li class="category-item d-xl-none">
                 <a href="shop.html" class="btn category-link smooth">
                   <img
-                    src="images/icons/Babies.svg"
+                    src="images/icons/smartphone.svg"
                     alt="مستلزمات الام والطفل"
                     width="16"
                     height="16"
                   />
-                  <span>مستلزمات الام والطفل</span>
+                  <span>هواتف</span>
                 </a>
                 <button
                   type="button"
@@ -642,13 +728,15 @@
                   id="category_nav_5"
                 >
                   <li>
-                    <a href="shop.html" class="smooth"
-                      >كل ما يلزم الام والطفل بالإضافة للعب</a
-                    >
+                    <a href="shop.html" class="smooth">هواتف</a>
+                  </li>
+                  <li>
+                    <a href="shop.html" class="smooth">تابلت</a>
                   </li>
                 </ul>
               </li>
-              <li class="category-item">
+
+              <li class="category-item d-xl-none">
                 <a href="shop.html" class="btn category-link smooth">
                   <img
                     src="images/icons/monitor.svg"
@@ -684,96 +772,10 @@
                     <a href="shop.html" class="smooth">الالكترونيات</a>
                   </li>
                   <li>
-                    <a href="shop.html" class="smooth">كابلات</a>
-                  </li>
-                  <li>
-                    <a href="shop.html" class="smooth">لوحات المفاتيح</a>
+                    <a href="shop.html" class="smooth">لابتوب</a>
                   </li>
                 </ul>
               </li>
-              <!-- <li class="category-item">
-                <a href="shop.html" class="btn category-link smooth">
-                  <img
-                    src="images/icons/cosmetics.svg"
-                    alt="مستحضرات تجميل"
-                    width="16"
-                    height="16"
-                  />
-                  <span>مستحضرات تجميل</span>
-                </a>
-                <button
-                  type="button"
-                  class="btn collapsed mobile-category-toggler"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#category_nav_7"
-                  aria-expanded="true"
-                  aria-controls="category_nav_7"
-                  aria-label="افتح الفئات الفرعية"
-                >
-                  <span class="icon w-fit smooth">
-                    <img
-                      src="images/icons/plus.svg"
-                      width="18"
-                      height="18"
-                      alt="toggle show subcategory"
-                    />
-                  </span>
-                </button>
-                <ul
-                  class="category-dropdown smooth collapse"
-                  id="category_nav_7"
-                >
-                  <li>
-                    <a href="shop.html" class="smooth">مواد تجميل</a>
-                  </li>
-                  <li>
-                    <a href="shop.html" class="smooth">عطور</a>
-                  </li>
-                </ul>
-              </li> -->
-              <!-- <li class="category-item">
-                <a href="shop.html" class="btn category-link smooth">
-                  <img
-                    src="images/icons/book.svg"
-                    alt="كتب"
-                    width="16"
-                    height="16"
-                  />
-                  <span>كتب</span>
-                </a>
-                <button
-                  type="button"
-                  class="btn collapsed mobile-category-toggler"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#category_nav_8"
-                  aria-expanded="true"
-                  aria-controls="category_nav_8"
-                  aria-label="افتح الفئات الفرعية"
-                >
-                  <span class="icon w-fit smooth">
-                    <img
-                      src="images/icons/plus.svg"
-                      width="18"
-                      height="18"
-                      alt="toggle show subcategory"
-                    />
-                  </span>
-                </button>
-                <ul
-                  class="category-dropdown smooth collapse"
-                  id="category_nav_8"
-                >
-                  <li>
-                    <a href="shop.html" class="smooth">كتب علمية</a>
-                  </li>
-                  <li>
-                    <a href="shop.html" class="smooth">كتب دينية</a>
-                  </li>
-                  <li>
-                    <a href="shop.html" class="smooth">كتب أدبية</a>
-                  </li>
-                </ul>
-              </li> -->
             </ul>
           </div>
         </nav>
@@ -1576,30 +1578,22 @@
               <div class="collapse dont-collapse-lg" id="collapse_1">
                 <ol class="footer-links-wrapper">
                   <li>
-                    <a href="shop.html" class="footer-link">الهدايا</a>
+                    <a href="shop.html" class="footer-link">الساعات</a>
                   </li>
                   <li>
-                    <a href="shop.html" class="footer-link">معدات طبية</a>
+                    <a href="shop.html" class="footer-link">اجهزة كهربية</a>
                   </li>
                   <li>
-                    <a href="shop.html" class="footer-link">أدوات مكتبية</a>
+                    <a href="shop.html" class="footer-link">اكسسوارات</a>
                   </li>
                   <li>
-                    <a href="shop.html" class="footer-link">أثاث</a>
+                    <a href="shop.html" class="footer-link">اسكوترات</a>
                   </li>
                   <li>
-                    <a href="shop.html" class="footer-link"
-                      >مستلزمات الام و الطفل</a
-                    >
+                    <a href="shop.html" class="footer-link">هواتف</a>
                   </li>
                   <li>
                     <a href="shop.html" class="footer-link">الالكترونيات</a>
-                  </li>
-                  <li>
-                    <a href="shop.html" class="footer-link">مستحضرات تجميل</a>
-                  </li>
-                  <li>
-                    <a href="shop.html" class="footer-link">كتب</a>
                   </li>
                 </ol>
               </div>
@@ -1616,6 +1610,9 @@
               <div class="collapse dont-collapse-lg" id="collapse_2">
                 <ol class="footer-links-wrapper">
                   <li>
+                    <a href="about.html" class="footer-link">معلومات عنا</a>
+                  </li>
+                  <li>
                     <a href="contact.html" class="footer-link">تواصل معنا</a>
                   </li>
                   <li>
@@ -1624,9 +1621,15 @@
                     >
                   </li>
                   <li>
-                    <a href="rewards.html" class="footer-link"
-                      >عميل مميز</a
+                    <a href="privacy.html" class="footer-link"
+                      >سياسة الخصوصية</a
                     >
+                  </li>
+                  <li>
+                    <a href="services.html" class="footer-link">خدماتنا</a>
+                  </li>
+                  <li>
+                    <a href="payments.html" class="footer-link">طرق الدفع</a>
                   </li>
                 </ol>
               </div>
@@ -1693,22 +1696,6 @@
                     </li>
                   </ul>
                 </div>
-                <div>
-                  <h3 class="footer-header">وسائل الدفع المتاحة</h3>
-                  <ul class="payemnt-method">
-                    <li class="pay">
-                      <img
-                        src="images/cash-on-delivery.webp"
-                        data-src="images/cash-on-delivery.webp"
-                        class="lazy blur-up"
-                        alt="payment method"
-                        width="50"
-                        height="50"
-                      />
-                      <span class="label">الدفع عند الاستلام</span>
-                    </li>
-                  </ul>
-                </div>
               </div>
             </li>
 
@@ -1717,10 +1704,10 @@
                 <img
                   src="images/footer-logo.webp"
                   data-src="images/footer-logo.webp"
-                  width="180"
-                  height="146"
+                  width="235"
+                  height="254"
                   class="lazy blur-up"
-                  alt="Linkly logo"
+                  alt="العالمي"
                 />
               </a>
             </li>
@@ -1729,7 +1716,7 @@
 
         <div class="bottom-footer">
           <div class="container">
-            <p>كل الحقوق محفوظة <strong>Linkly</strong></p>
+            <p>كل الحقوق محفوظة <strong>العالمي</strong></p>
           </div>
         </div>
       </footer>
@@ -1925,92 +1912,6 @@
     </div>
     <!-- End of Remove From Cart Modal -->
 
-    <!-- Start of Require Order Modal -->
-    <div
-      class="modal fade require-order-modal added-to-cart"
-      id="requireOrder"
-      data-bs-backdrop="static"
-      data-bs-keyboard="false"
-      tabindex="-1"
-      aria-labelledby="requireOrderLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="modal"
-            aria-label="Close"
-          >
-            <img src="images/icons/x.svg" alt="close" width="18" height="18" />
-          </button>
-          <div class="modal-body">
-            <div class="desc">
-              <h3>المنتج غير متوفر لدينا حاليا.</h3>
-              <p class="mb-0">اختار الكمية التى تحتاجها و سنوفرها لك قريبا</p>
-            </div>
-            <form>
-              <div class="quantity mb-3">
-                <label for="productQuantity" class="form-label mb-2"
-                  >الكمية</label
-                >
-                <select
-                  class="fstdropdown-select"
-                  data-searchdisable="true"
-                  aria-label="select quantity"
-                  id="productQuantity"
-                  name="product_quantity"
-                  required
-                >
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                </select>
-              </div>
-              <div class="mb-3">
-                <label for="orderAddress" class="form-label"
-                  >عنوان الاستلام</label
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  id="orderAddress"
-                  name="order_address"
-                  required
-                />
-              </div>
-              <div class="mb-5">
-                <label for="orderNotes" class="form-label">ملاحظات</label>
-                <textarea
-                  name="order_notes"
-                  id="orderNotes"
-                  class="form-control"
-                ></textarea>
-              </div>
-              <div class="actions">
-                <button
-                  type="button"
-                  class="btn btn-alt"
-                  data-bs-dismiss="modal"
-                >
-                  الغاء
-                </button>
-                <button
-                  type="submit"
-                  class="btn btn-main"
-                  data-bs-dismiss="modal"
-                >
-                  اطلب الان
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End of Require Order Modal -->
-
     <!-- Bootstrap Script -->
     <script src="plugins/bootstrap/bootstrap.min.js" defer></script>
     <!-- Lazy Load Images -->
@@ -2020,7 +1921,7 @@
     <!-- Custom Dropdown -->
     <script src="plugins/fstdropdown-master/fstdropdown.min.js" defer></script>
     <!-- Page Scripts -->
-    <script src="js/components/header.js" defer></script>
+    <script src="js/global.js" defer></script>
     <script src="js/cart.js" defer></script>
     <!-- Cart Actions -->
     <script defer>

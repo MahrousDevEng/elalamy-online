@@ -1405,10 +1405,13 @@
             </div>
             <a href="shop.html" class="new-arrival-item">
               <img
-                src="images/936-350.webp"
-                data-src="images/936-350.webp"
+                src="images/news-940-360.webp"
+                data-src="images/news-940-360.webp"
                 class="lazy blur-up"
                 alt="New Arrivals"
+                id="newArrivalBanner"
+                width="940"
+                height="360"
               />
             </a>
           </div>
@@ -2827,7 +2830,6 @@
     <!-- Swiper Carousal -->
     <script src="plugins/swiper/swiper-bundle.min.js" defer></script>
     <!-- Page Scripts -->
-    <script src="js/components/header.js" defer></script>
     <script src="js/global.js" defer></script>
     <script src="js/home.js" defer></script>
     <!-- Load Responsive Video -->
@@ -2863,17 +2865,17 @@
       if (newArrivalImg) {
         if (window.innerWidth < 992) {
           setAttributes(newArrivalImg, {
-            src: "images/936-350.webp",
-            "data-src": "images/936-350.webp",
-            width: 936,
-            height: 350,
+            src: "images/news-940-360.webp",
+            "data-src": "images/news-940-360.webp",
+            width: 940,
+            height: 360,
           });
         } else {
           setAttributes(newArrivalImg, {
-            src: "images/1600-350.webp",
-            "data-src": "images/1600-350.webp",
-            width: 1600,
-            height: 350,
+            src: "images/news-1300-500.webp",
+            "data-src": "images/news-1300-500.webp",
+            width: 1300,
+            height: 500,
           });
         }
       }
